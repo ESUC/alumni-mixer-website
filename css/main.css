@@ -1,0 +1,600 @@
+
+body {
+	background-color:#eee;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.date, .date ul {
+	position: relative;
+}
+
+#section-1{
+ 	background-image:url(../img/royce.jpg); 
+ 	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+  	opacity:0.9;
+  	padding-bottom: 50%;
+  	min-height:720px;
+  	max-height:750px;
+}
+
+#section-1-title {
+	top:190px;
+	left:50%;
+	margin-left:-250px;
+	position: absolute;
+}
+
+#section-1-title .caption {
+	color:#fff;
+	font-size:18px;
+	text-align:center;
+}
+
+#section-1 h1 {
+	text-align: center;
+	font-size:70px;
+	color:#fff;
+	border:3px solid #fff;
+	padding:8px;
+}
+
+#section-1 .info {
+	height:135px;
+	width:100%;
+	position:relative;
+	background-color:#ddd;
+	opacity:0.8;
+	top:500px;
+	color:#fff;
+	box-shadow: 5px 5px 5px #aaa;
+}
+
+.xs-menu {
+	position: absolute;
+	left:440px;
+	top:-50px;
+}
+
+.drop-container {
+	position: absolute;
+	margin-right:20px;
+	margin-top:10px;
+	right:0;
+	width:100px;
+}
+
+#drop {
+	font-size:30px;
+	margin:0 auto;
+	left:70px;	
+}
+
+.dropdown li:hover {
+	cursor:pointer;
+	background-color:#eee;
+}
+
+.dropdown li{
+	padding:5px 30px;
+	text-align: center;
+
+}
+
+.dropdown-menu {
+	min-width: 0 !important;
+	margin-right:120px;
+}
+
+hr {
+	margin:0;
+}
+
+.date, .arrow-right, .side {
+	display:inline-block;
+	position: relative;
+}
+
+#find-map {
+	text-decoration: underline;
+}
+
+#find-map:hover {
+	cursor:pointer;
+}
+
+
+.side {
+	margin-top:-100px;
+	left:31px;
+	top:31px;
+	background-color:#2E72AA;
+	width: 16px; 
+	height: 115px; 	
+	z-index:800;
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 16px solid transparent;
+	border-bottom: 16px solid transparent;	
+	border-left: 16px solid #2E72AA;
+	top:47px;
+	left:12px;
+
+}
+
+.date {
+	background-color:#3399DD;
+	width:420px;
+	height:135px;
+	border:0px solid #444;
+	left:35px;
+	font-size:19px;	
+}
+
+.info-top {
+	position: absolute;
+	width:100%;
+	height:10px;
+	background-color:#3399CC;
+	z-index:900;
+}
+
+.date ul {
+	top:20px;
+	list-style-type: none;
+}
+
+.date span {
+	font-size:23px;
+	text-shadow: 1px 1px #ddd;
+}
+
+.others {
+	position: absolute;
+	top:10px;
+	left:431px;
+}
+
+.others li {
+	display:inline-block;
+	position:relative;
+	height:126px;
+	width:69px;
+	background-color:#555;
+	margin-right:11px;
+}
+
+.others li:hover {
+	cursor:pointer;
+}
+
+.others .side {
+	position: absolute;
+	margin:0;
+	top:-5px;
+	left:68px;
+	background-color: #353535;
+}
+
+.others .arrow-right {
+	position: absolute;
+	left:68px;
+	top:94px;
+	border-left: 16px solid #353535;
+	z-index:900;
+}
+
+.others .name {
+	font-size:20px;
+	width:5px;
+}
+
+
+.name span {
+	position: relative;
+	display:block;
+	left:25px;
+	line-height:24px;
+
+}
+
+.to-about {
+	top:-2px;
+}
+
+.to-map {
+	top:-23px;
+}
+
+.to-map span {
+	line-height:35px;
+}
+
+.to-guest {
+	font-size: 14px;
+}
+
+.to-guest span {
+	line-height:24px;
+}	
+
+#rsvp {
+	position: absolute;
+	left:50%;
+	top:400px;
+	margin-left:-80px;
+	font-size:35px;
+	opacity:0.9; 
+	color:#222;
+	padding:0px 50px;
+	border:4px solid #cecece;
+}
+
+
+#section-2{
+	margin-bottom:100px;
+}
+
+.about {
+	width:0;
+	position: relative;
+	left:50%;
+}
+
+
+.about h1 {
+	width:400px;
+	margin-left:-45px !important;
+}
+
+.about p {
+	margin-left:-205px;
+	margin-top:50px;
+	line-height: 30px;
+	width:430px;
+	padding:20px 30px;
+	border:3px solid #333;
+	border-radius:5px;
+	text-align: center;
+}
+
+.a4 {
+	font-size:25px;
+	border-width:7px !important;
+	padding:50px 55px !important;
+	border-color:#3399CC !important;
+	box-shadow:0px 0px 20px #339FDD;	
+	animation: shadow 1.3s infinite;
+  	animation-direction: alternate;
+  	-webkit-animation: shadow 1.3s ease-out infinite;
+  	-webkit-animation-direction: alternate;
+}
+
+
+@keyframes shadow {
+  from {box-shadow: 0 0 25px 10px rgba(51,159,221, 0.9);}
+  to {box-shadow: 0 0 25px 10px rgba(51,159,221, 0.2);}
+}
+@-webkit-keyframes shadow {
+  from {box-shadow: 0 0 25px 10px rgba(51,159,221, 0.9);}
+  to {box-shadow: 0 0 25px 10px rgba(51,159,221, 0.2);}
+}
+
+
+.about h1 {
+	margin:50px 0  20px 0;
+	margin-left:-140px;
+}
+
+
+#section-3{
+	height:620px;
+	background-color:#282828;
+	color:#fff;
+}
+
+.address h1, .address h5 {
+	position: relative;
+	top:60px;
+	text-align: center;
+	margin:0 auto;
+}
+
+#map-canvas{
+	position: relative;
+	top:45px;
+	height:450px;
+	width:80%;
+	margin:auto;
+}
+
+footer {
+	position: relative;
+	top:268px;
+	width:100%;
+	height:80px;
+	opacity:0.6;
+	background-color: #aaa;
+	text-align: center;
+}
+
+footer p {
+	line-height: 85px;
+	color:#000;
+}
+
+footer a{
+	color:#243879;
+	text-shadow: 2px 1px #55AADD;
+}
+
+#cover {
+	visibility:hidden;
+	position:absolute;
+	height:100%;
+	width:100%;
+	background-color:#3399DD;
+	z-index:999;
+}
+
+#intro-logo, #intro-caption {
+	left:50%;
+	top:50%;
+	position:absolute;
+}
+
+.esuc-desc {
+	position:absolute;
+	top:96px;
+	left:5px;
+	width:140px;
+	color:#444;
+	text-align:center;
+}
+
+#intro-logo{
+	line-height:0;
+	margin-top:-180px;
+	margin-left:-320px;
+}
+
+#cover #esuc-logo{
+	position:relative;
+	left:10px;
+	top:10px;
+}
+
+#intro-caption {
+	font-size:26px;
+	color:#eee;
+	display:none;
+}
+
+.skip {
+	color:#444;
+	float:right;
+	font-size:18px;
+	position:relative;
+	top:20px;
+	right:10px;
+}
+
+.skip:hover{
+	cursor:pointer;
+}
+
+#section-4 {
+	background-image:url('../img/band.jpg');
+	opacity:0.9;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	width:100%;
+	height:500px;
+	background-size: 100% 100%;
+}
+
+.line {
+	position: absolute;
+	height:1px;
+	width:100%;
+	background-color:#000;
+	box-shadow: 5px 2px 5px #000;
+
+}
+
+.blur {
+	position: absolute;
+	z-index:-999;
+	background-color:rgba(40,40,40,0.7);
+	width:100%;
+	height:500px;
+}
+
+.wrap h1 {
+	position: relative;
+	top:50px;
+	font-size:55px;
+	color:#fff;
+}
+
+.wrap h4 {
+	color:#ddd;
+	position: relative;
+	top:50px;
+	font-size:20px;
+}
+
+.follow {
+	position: relative;
+	left:50%;
+	top:150px;
+	margin-left:-110px;
+	padding:15px;
+	z-index: 999;
+}
+
+.animation-target {
+  -webkit-animation: animation 1000ms linear both;
+  animation: animation 1000ms linear both;
+}
+
+@-webkit-keyframes animation { 
+  0% { -webkit-transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  3.333333% { -webkit-transform: matrix3d(0.2909, 0, 0, 0, 0, 0.2909, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.2909, 0, 0, 0, 0, 0.2909, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  6.666667% { -webkit-transform: matrix3d(0.59685, 0, 0, 0, 0, 0.59685, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.59685, 0, 0, 0, 0, 0.59685, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  10% { -webkit-transform: matrix3d(0.85548, 0, 0, 0, 0, 0.85548, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.85548, 0, 0, 0, 0, 0.85548, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  13.333333% { -webkit-transform: matrix3d(1.03794, 0, 0, 0, 0, 1.03794, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.03794, 0, 0, 0, 0, 1.03794, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  16.666667% { -webkit-transform: matrix3d(1.14088, 0, 0, 0, 0, 1.14088, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.14088, 0, 0, 0, 0, 1.14088, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  20% { -webkit-transform: matrix3d(1.17694, 0, 0, 0, 0, 1.17694, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.17694, 0, 0, 0, 0, 1.17694, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  23.333333% { -webkit-transform: matrix3d(1.16606, 0, 0, 0, 0, 1.16606, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.16606, 0, 0, 0, 0, 1.16606, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  26.666667% { -webkit-transform: matrix3d(1.12889, 0, 0, 0, 0, 1.12889, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.12889, 0, 0, 0, 0, 1.12889, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  30% { -webkit-transform: matrix3d(1.08275, 0, 0, 0, 0, 1.08275, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.08275, 0, 0, 0, 0, 1.08275, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  33.333333% { -webkit-transform: matrix3d(1.0397, 0, 0, 0, 0, 1.0397, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.0397, 0, 0, 0, 0, 1.0397, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  36.666667% { -webkit-transform: matrix3d(1.00644, 0, 0, 0, 0, 1.00644, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00644, 0, 0, 0, 0, 1.00644, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  40% { -webkit-transform: matrix3d(0.98522, 0, 0, 0, 0, 0.98522, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.98522, 0, 0, 0, 0, 0.98522, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  43.333333% { -webkit-transform: matrix3d(0.97516, 0, 0, 0, 0, 0.97516, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.97516, 0, 0, 0, 0, 0.97516, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  46.666667% { -webkit-transform: matrix3d(0.97367, 0, 0, 0, 0, 0.97367, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.97367, 0, 0, 0, 0, 0.97367, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  50% { -webkit-transform: matrix3d(0.97763, 0, 0, 0, 0, 0.97763, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.97763, 0, 0, 0, 0, 0.97763, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  53.333333% { -webkit-transform: matrix3d(0.98414, 0, 0, 0, 0, 0.98414, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.98414, 0, 0, 0, 0, 0.98414, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  56.666667% { -webkit-transform: matrix3d(0.99098, 0, 0, 0, 0, 0.99098, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99098, 0, 0, 0, 0, 0.99098, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  60% { -webkit-transform: matrix3d(0.99677, 0, 0, 0, 0, 0.99677, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99677, 0, 0, 0, 0, 0.99677, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  63.333333% { -webkit-transform: matrix3d(1.00085, 0, 0, 0, 0, 1.00085, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00085, 0, 0, 0, 0, 1.00085, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  66.666667% { -webkit-transform: matrix3d(1.00315, 0, 0, 0, 0, 1.00315, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00315, 0, 0, 0, 0, 1.00315, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  70% { -webkit-transform: matrix3d(1.00396, 0, 0, 0, 0, 1.00396, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00396, 0, 0, 0, 0, 1.00396, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  73.333333% { -webkit-transform: matrix3d(1.00371, 0, 0, 0, 0, 1.00371, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00371, 0, 0, 0, 0, 1.00371, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  76.666667% { -webkit-transform: matrix3d(1.00288, 0, 0, 0, 0, 1.00288, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00288, 0, 0, 0, 0, 1.00288, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  80% { -webkit-transform: matrix3d(1.00185, 0, 0, 0, 0, 1.00185, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00185, 0, 0, 0, 0, 1.00185, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  83.333333% { -webkit-transform: matrix3d(1.00089, 0, 0, 0, 0, 1.00089, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00089, 0, 0, 0, 0, 1.00089, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  86.666667% { -webkit-transform: matrix3d(1.00014, 0, 0, 0, 0, 1.00014, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00014, 0, 0, 0, 0, 1.00014, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  90% { -webkit-transform: matrix3d(0.99967, 0, 0, 0, 0, 0.99967, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99967, 0, 0, 0, 0, 0.99967, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  93.333333% { -webkit-transform: matrix3d(0.99944, 0, 0, 0, 0, 0.99944, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99944, 0, 0, 0, 0, 0.99944, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  96.666667% { -webkit-transform: matrix3d(0.99941, 0, 0, 0, 0, 0.99941, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99941, 0, 0, 0, 0, 0.99941, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+@keyframes animation { 
+  0% { -webkit-transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  3.333333% { -webkit-transform: matrix3d(0.2909, 0, 0, 0, 0, 0.2909, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.2909, 0, 0, 0, 0, 0.2909, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  6.666667% { -webkit-transform: matrix3d(0.59685, 0, 0, 0, 0, 0.59685, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.59685, 0, 0, 0, 0, 0.59685, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  10% { -webkit-transform: matrix3d(0.85548, 0, 0, 0, 0, 0.85548, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.85548, 0, 0, 0, 0, 0.85548, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  13.333333% { -webkit-transform: matrix3d(1.03794, 0, 0, 0, 0, 1.03794, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.03794, 0, 0, 0, 0, 1.03794, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  16.666667% { -webkit-transform: matrix3d(1.14088, 0, 0, 0, 0, 1.14088, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.14088, 0, 0, 0, 0, 1.14088, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  20% { -webkit-transform: matrix3d(1.17694, 0, 0, 0, 0, 1.17694, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.17694, 0, 0, 0, 0, 1.17694, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  23.333333% { -webkit-transform: matrix3d(1.16606, 0, 0, 0, 0, 1.16606, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.16606, 0, 0, 0, 0, 1.16606, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  26.666667% { -webkit-transform: matrix3d(1.12889, 0, 0, 0, 0, 1.12889, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.12889, 0, 0, 0, 0, 1.12889, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  30% { -webkit-transform: matrix3d(1.08275, 0, 0, 0, 0, 1.08275, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.08275, 0, 0, 0, 0, 1.08275, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  33.333333% { -webkit-transform: matrix3d(1.0397, 0, 0, 0, 0, 1.0397, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.0397, 0, 0, 0, 0, 1.0397, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  36.666667% { -webkit-transform: matrix3d(1.00644, 0, 0, 0, 0, 1.00644, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00644, 0, 0, 0, 0, 1.00644, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  40% { -webkit-transform: matrix3d(0.98522, 0, 0, 0, 0, 0.98522, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.98522, 0, 0, 0, 0, 0.98522, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  43.333333% { -webkit-transform: matrix3d(0.97516, 0, 0, 0, 0, 0.97516, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.97516, 0, 0, 0, 0, 0.97516, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  46.666667% { -webkit-transform: matrix3d(0.97367, 0, 0, 0, 0, 0.97367, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.97367, 0, 0, 0, 0, 0.97367, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  50% { -webkit-transform: matrix3d(0.97763, 0, 0, 0, 0, 0.97763, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.97763, 0, 0, 0, 0, 0.97763, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  53.333333% { -webkit-transform: matrix3d(0.98414, 0, 0, 0, 0, 0.98414, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.98414, 0, 0, 0, 0, 0.98414, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  56.666667% { -webkit-transform: matrix3d(0.99098, 0, 0, 0, 0, 0.99098, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99098, 0, 0, 0, 0, 0.99098, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  60% { -webkit-transform: matrix3d(0.99677, 0, 0, 0, 0, 0.99677, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99677, 0, 0, 0, 0, 0.99677, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  63.333333% { -webkit-transform: matrix3d(1.00085, 0, 0, 0, 0, 1.00085, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00085, 0, 0, 0, 0, 1.00085, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  66.666667% { -webkit-transform: matrix3d(1.00315, 0, 0, 0, 0, 1.00315, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00315, 0, 0, 0, 0, 1.00315, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  70% { -webkit-transform: matrix3d(1.00396, 0, 0, 0, 0, 1.00396, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00396, 0, 0, 0, 0, 1.00396, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  73.333333% { -webkit-transform: matrix3d(1.00371, 0, 0, 0, 0, 1.00371, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00371, 0, 0, 0, 0, 1.00371, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  76.666667% { -webkit-transform: matrix3d(1.00288, 0, 0, 0, 0, 1.00288, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00288, 0, 0, 0, 0, 1.00288, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  80% { -webkit-transform: matrix3d(1.00185, 0, 0, 0, 0, 1.00185, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00185, 0, 0, 0, 0, 1.00185, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  83.333333% { -webkit-transform: matrix3d(1.00089, 0, 0, 0, 0, 1.00089, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00089, 0, 0, 0, 0, 1.00089, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  86.666667% { -webkit-transform: matrix3d(1.00014, 0, 0, 0, 0, 1.00014, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.00014, 0, 0, 0, 0, 1.00014, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  90% { -webkit-transform: matrix3d(0.99967, 0, 0, 0, 0, 0.99967, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99967, 0, 0, 0, 0, 0.99967, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  93.333333% { -webkit-transform: matrix3d(0.99944, 0, 0, 0, 0, 0.99944, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99944, 0, 0, 0, 0, 0.99944, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  96.666667% { -webkit-transform: matrix3d(0.99941, 0, 0, 0, 0, 0.99941, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.99941, 0, 0, 0, 0, 0.99941, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+#p1 {
+	background-image:url(../img/dean.jpg) !important;
+}
+
+
+@media all and (max-width: 550px) {
+ 	#section-1-title {
+ 		width:300px;
+ 		margin-left:-140px;
+ 	}
+
+ 	#section-1-title h1 {
+ 		font-size:30px;
+ 		padding:30px 0 30px 0;
+ 	}	
+
+ 	.info-top {
+ 		display:none;
+ 	}
+
+ 	.date {
+ 		left:0px;
+ 		width:310px;
+ 		border-radius:5px;
+ 	}
+
+
+ 	.about p {
+ 		width:300px;
+ 		margin-left:-150px;
+ 	}
+
+ 	.date ul {
+ 		padding-left:20px;
+ 	}
+
+ 	.date li {
+ 		font-size:14px;
+ 	}
+
+ 	.about h1 {
+ 		position: relative;
+ 		font-size:30px;
+ 		left:-80px;
+ 		width:250px;
+ 		text-align: center;
+ 	}
+
+ 	.info {
+ 		background-color:#3399DD !important;
+ 		border-radius:5px;
+ 		box-shadow:15px 15px 15px #333 !important;
+ 	}
+
+ 	.side {
+ 		display:none;
+ 	}
+
+ 	.arrow-right {
+ 		display:none;
+ 	}
+
+ 	.date span {
+ 		font-size:18px;
+ 	}
+
+ 	.address h1 {
+ 		font-size:30px;
+ 	}
+
+ 	.address h5 {
+ 		margin-top :5px;
+ 		width:300px;
+ 	}
+
+ 	.esuc-desc {
+ 		font-size:12px;
+ 	}
+
+ 	#intro-caption {
+ 		text-align: center;
+ 		font-size:20px;
+ 	}
+
+ 	footer p{
+ 		font-size:12px;
+ 	}
+}
