@@ -573,6 +573,7 @@ hr {
 	height:200px;
 	width:300px;
 	background: url(../img/esuc.png);
+	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: white; 
@@ -587,7 +588,7 @@ hr {
 	display: block;
 	height:200px;
 	width:300px;
-	background: url(../img/be.jpg);
+	background: url(../img/be.png);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	margin-bottom: 20px;
