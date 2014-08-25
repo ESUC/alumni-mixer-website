@@ -177,12 +177,6 @@ $(document).ready(function(){
         }, 1000);
     });
 
-    $("#to-sponsors").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#sponsors").offset().top
-        }, 1000);
-    });
-
     $("#to-map").click(function() {
         $('html, body').animate({
             scrollTop: $("#section-5").offset().top

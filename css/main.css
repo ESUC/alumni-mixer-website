@@ -506,7 +506,7 @@ hr {
 		padding-top:40px;
 		height:700px;
 		width:100%;
-		background:url(../img/texture.jpg) center;
+		background:url(../img/la.jpg) center;
 		background-size: 100% 100%;
 		background-attachment: fixed; 
 		overflow-y:auto;
@@ -528,24 +528,7 @@ hr {
 	margin:auto;
 	box-shadow: 5px 5px 9px black;
 }
-#sponsors{
-	height:600px;
-	width: 100%;
-	background:url(../img/bruin-bear.jpg);
-	background-size: 100% 100%;
-	background-attachment: fixed; 
-	padding-top:40px;
-	overflow-y:auto;
-	overflow-x:hidden;
 
-}
-#sponsors h1{
-	font-family: Montserrat;
-	color: white;
-	text-shadow:2px 2px 4px black;
-	margin-bottom: 120px;
-
-}
 
 #hsseas{
 	display: block;
@@ -561,7 +544,7 @@ hr {
 	margin-right: auto;
 }
 #organisers{
-	height:700px;
+	height:900px;
 	width:100%;
 	background:url(../img/texture.jpg) center;
 	background-size: 100% 100%;
@@ -574,7 +557,14 @@ hr {
 	font-family: Montserrat;
 	color: black;
 	text-shadow:3px 3px 4px gray;
-	margin-bottom: 140px;
+	margin-bottom: 100px;
+
+}
+#organisers h3{
+	font-family: Montserrat;
+	color: black;
+	text-shadow:3px 3px 4px gray;
+	margin-bottom: 40px;
 
 }
 .col-md-4{
@@ -920,7 +910,7 @@ footer a{
 
 #organisers{
 	background-attachment: scroll;
-	height: 900px;
+	height: 1350px;
 
 }
 
@@ -932,12 +922,7 @@ footer a{
 	vertical-align: middle;
 }
 
-#sponsors{
-	background-attachment: scroll;
-}
-#sponsors h1{
-	font-size: 30px;
-}
+
 	.wrap h1{
 		font-size: 30px;
 	}
