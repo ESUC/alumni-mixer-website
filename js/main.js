@@ -43,7 +43,7 @@ var pathObj = {
 //map
 var map;
 var MY_MAPTYPE_ID = 'custom_style';
-var centerLatLng = new google.maps.LatLng(34.070795,-118.444284);
+var centerLatLng = new google.maps.LatLng(34.070623, -118.444096);
 function initialize() {
 
 
@@ -96,6 +96,7 @@ $(document).ready(function(){
     var $main=$('#main');
     var $cover=$('#cover');
     $main.hide();
+
     //paint
     $('#intro-logo').lazylinepainter( 
     {
@@ -110,6 +111,7 @@ $(document).ready(function(){
         $main.show();
         initialize();
         $cover.fadeOut(800);
+        $(".sub").addClass('animate-line');
     },5000);
 
     $('.skip').click(function(){
@@ -117,6 +119,7 @@ $(document).ready(function(){
         $main.show();
         initialize();
         $cover.hide();
+        $(".sub").addClass('animate-line');
     });
 
     //intro animation END
@@ -139,30 +142,63 @@ $(document).ready(function(){
    
 
     //scroll
-    $("#find-map").click(function() {
+    /*$("#find-map").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#section-3").offset().top
+        }, 1000);
+    });*/
+     $("#to-top").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#page-top").offset().top
+        }, 1000);
+    });
+
+    $("#to-info").click(function() {
         $('html, body').animate({
             scrollTop: $("#section-3").offset().top
         }, 1000);
     });
 
-    $(".to-map").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#section-3").offset().top
-        }, 1000);
-    });
-
-    $(".to-guest").click(function() {
+    $("#to-guest").click(function() {
         $('html, body').animate({
             scrollTop: $("#section-4").offset().top
         }, 1000);
     });
 
-    $(".to-about").click(function() {
+    $("#to-about").click(function() {
         $('html, body').animate({
             scrollTop: $("#section-2").offset().top
         }, 1000);
     });
 
+      $("#to-organizers").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#organisers").offset().top
+        }, 1000);
+    });
+
+    $("#to-sponsors").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#sponsors").offset().top
+        }, 1000);
+    });
+
+    $("#to-map").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#section-5").offset().top
+        }, 1000);
+    });
+
+    $("#rsvp").mouseenter(function(event) {
+         $(this).animate({ backgroundColor:'white'},500);
+         $("#rsvp a").css("color","#3399DD");
+    }).mouseleave(function() {
+        $(this).animate({ backgroundColor:'#3399DD'},500);
+        $("#rsvp a").css("color","white");
+         
+    });
+
+    
     var config = {
               move: '40px',
               over: '1s',
@@ -175,4 +211,13 @@ $(document).ready(function(){
     window.scrollReveal = new scrollReveal( config );
     scrollReveal.init();
 
+});
+
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $(".navbar-custom .nav li.active").css("background-color","#3399DD"); 
+    }
 });
