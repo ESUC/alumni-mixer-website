@@ -539,12 +539,12 @@ hr {
 	background-repeat: no-repeat;
 	background-color: white; 
 	margin-bottom: 20px;
-	box-shadow: 3px 3px 5px black;
+	/*box-shadow: 3px 3px 5px black;*/
 	margin-left: auto;
 	margin-right: auto;
 }
 #organisers{
-	height:900px;
+	height:750px;
 	width:100%;
 	background:url(../img/texture.jpg) center;
 	background-size: 100% 100%;
@@ -556,15 +556,13 @@ hr {
 #organisers h1{
 	font-family: Montserrat;
 	color: black;
-	text-shadow:3px 3px 4px gray;
-	margin-bottom: 100px;
+	margin-bottom: 65px;
 
 }
 #organisers h3{
 	font-family: Montserrat;
 	color: black;
-	text-shadow:3px 3px 4px gray;
-	margin-bottom: 40px;
+	margin-bottom: 5px;
 
 }
 .col-md-4{
@@ -579,7 +577,7 @@ hr {
 	background-repeat: no-repeat;
 	background-color: white; 
 	margin-bottom: 20px;
-	box-shadow: 3px 3px 5px black;
+	/*box-shadow: 3px 3px 5px black;*/
 	
 	
 
@@ -593,7 +591,7 @@ hr {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	margin-bottom: 20px;
-	box-shadow: 3px 3px 5px black;
+	/*box-shadow: 3px 3px 5px black;*/
 
 }
 #swe{
@@ -604,7 +602,7 @@ hr {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	margin-bottom: 20px;
-	box-shadow: 4px 4px 8px black;
+	/*box-shadow: 4px 4px 8px black;*/
 }
 footer {
 	position: relative;
@@ -724,7 +722,7 @@ footer a{
 .wrap h1{
 	color:white;
 	padding-top:50px;
-	text-shadow:2px 2px 4px black;
+	
 }
 .wrap h3 {
 	position: relative;
@@ -910,7 +908,7 @@ footer a{
 
 #organisers{
 	background-attachment: scroll;
-	height: 1350px;
+	height: 1250px;
 
 }
 
