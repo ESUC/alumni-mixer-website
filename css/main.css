@@ -506,7 +506,7 @@ hr {
 		padding-top:40px;
 		height:700px;
 		width:100%;
-		background:url(../img/la.jpg) center;
+		background:url(../img/texture.jpg) center;
 		background-size: 100% 100%;
 		background-attachment: fixed; 
 		overflow-y:auto;
@@ -517,8 +517,8 @@ hr {
 	font-family:Montserrat;
 	text-align:center;
 	margin-left:70px;
-	color:white;
-	text-shadow:2px 2px 4px black;
+	color:black;
+	text-shadow:3px 3px 4px gray;
 }
 #map-canvas{
 	position: relative;
@@ -563,7 +563,7 @@ hr {
 #organisers{
 	height:700px;
 	width:100%;
-	background:url(../img/royce.jpg) center;
+	background:url(../img/texture.jpg) center;
 	background-size: 100% 100%;
 	background-attachment: fixed; 
 	padding-top:40px;
@@ -572,8 +572,8 @@ hr {
 }
 #organisers h1{
 	font-family: Montserrat;
-	color: white;
-	text-shadow:2px 2px 4px black;
+	color: black;
+	text-shadow:3px 3px 4px gray;
 	margin-bottom: 140px;
 
 }
@@ -590,6 +590,8 @@ hr {
 	background-color: white; 
 	margin-bottom: 20px;
 	box-shadow: 3px 3px 5px black;
+	
+	
 
 	
 }
