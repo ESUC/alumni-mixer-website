@@ -57,7 +57,7 @@ html,body{
     font-size: 20px;
     color: #fff;
     float: none;
- 	margin-left: 43%;
+ 	margin-left: 38%;
 
 }
 
@@ -90,6 +90,10 @@ html,body{
     
 
 }
+
+    
+
+
 
 ul.navbar-nav a:hover{
 	cursor: pointer;
@@ -138,6 +142,7 @@ ul.navbar-nav a:hover{
 	padding-bottom: 0px;
 	text-shadow: 4px 4px 8px black;
 	margin-bottom: -2px;
+	margin-left:-40px;
 }
 
 .sub{
@@ -145,7 +150,7 @@ ul.navbar-nav a:hover{
 	text-decoration: none;
 	border-bottom: 3px solid #3399dd;
 	width: 0px; 
-	margin-left: auto;
+	margin-left: -15px;
 	margin-right: auto;
 	
     -webkit-transition: 1.5 ease;
@@ -175,7 +180,7 @@ ul.navbar-nav a:hover{
     -webkit-transition: 2s ease;
             transition: 2s ease;
     border-bottom: 3px solid white;
-	width: 500px;
+	width: 560px;
 }
 
 #section-1 .info {
@@ -826,6 +831,7 @@ footer a{
 	background-image:url(../img/dean.jpg) !important;
 }
 
+ 
 
 @media all and (max-width: 1024px) {
 
@@ -936,9 +942,10 @@ footer a{
     -webkit-transition: 1.6s ease;
             transition: 1.6s ease;
     border-bottom: 3px solid white;
-	width: 250px;
+	width: 275px;
 
 	}
+	
 	div#rsvp{
 	margin-top: -30px;
 	background-color:#3399DD;
