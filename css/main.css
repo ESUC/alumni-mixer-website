@@ -191,7 +191,7 @@ ul.navbar-nav a:hover{
 #rsvp {
 	position: absolute;
 	left:50%;
-	top:400px;
+	top:470px;
 	margin-left:-24px;
 	opacity:1; 
 	padding: 0;
@@ -229,7 +229,7 @@ div#rsvp a{
 #social{
 	width:200px;
 	height:60px;
-	margin-left: auto;
+	margin-left: 170px;
 	margin-right: auto; 
 }
 .xs-menu {
@@ -859,7 +859,10 @@ footer a{
 
 
 	}
-
+	#social{
+		margin-left:35px;
+		margin-right: auto; 
+	}
  	#section-1-title {
  		width:300px;
  		margin-left:-140px;
@@ -946,6 +949,7 @@ footer a{
 	padding: 0; 
 	padding-top: 26px;
 	border:4px solid #3399DD ;
+	margin-left: -40px;
 
 }
 
