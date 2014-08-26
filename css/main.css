@@ -496,9 +496,9 @@ hr {
 }
 
 #info{
-	width:0;
+	width:auto;
 	position: relative;
-	left:50%;
+	margin-left:47.5%;
 }
 #section-3 h1{
 	position: relative;
@@ -765,6 +765,7 @@ footer a{
 
 .wrap{
 	font-family:Montserrat;
+	margin-left:25px;
 }
 .wrap h1{
 	color:white;
@@ -934,6 +935,11 @@ footer a{
  	.info-top {
  		display:none;
  	}
+ 	#info {
+    margin-left: 49.5%;
+    position: relative;
+    width: auto;
+}
  	#section-2{
  		background:url('../img/texture.jpg') center no-repeat scroll;
 		background-size: 100% 100%;
