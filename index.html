@@ -122,9 +122,10 @@ document.getElementById('main').style.visibility='hidden';
 </section>
 
 <section id="section-3">
+  <div class="blur" style="margin-top:-40px;background-color:rgba(40,40,40,0.5);height:620px;z-index:0;"></div>
   <div id="info">
       <h1>INFORMATION</h1>
-    
+      
       <h3>Date</h3>
       <p id="date">22nd October, 2014</p>
       <h3>Time</h3>
@@ -151,30 +152,40 @@ document.getElementById('main').style.visibility='hidden';
 <section id="organisers">
   <h1 class="text-center">FIRST BRUIN ALUMNI MIXER</h1>
   <h3 class="text-center">ORGANIZERS</h3>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <a href="http://www.esuc.ucla.edu/">
-         <div id="esuc"></div> 
-        </a>
+ <div class="container" style="overflow-y:auto;overflow-x:hidden;">
+    <div class="row" style="overflow-y:auto;overflow-x:hidden;">
+      <div class="col-sm-4 portfolio-item" style="margin-bottom:10px;overflow-y:auto;overflow-x:hidden;">
+        <a href="http://www.esuc.ucla.edu/" target=_blank class="portfolio-link" data-toggle="modal">
+          <img src="img/esuc2.png"  class="img-responsive" alt="" />
+         </a>
       </div>
-      <div class="col-md-4">
-        <a href="http://bruinentrepreneurs.org">
-           <div id="be"></div> 
-        </a>
+
+      <div class="col-sm-4 portfolio-item" style="margin-bottom:10px;overflow-y:auto;overflow-x:hidden;">
+          <a href="http://www.bruinentrepreneurs.org/" target=_blank class="portfolio-link" data-toggle="modal">
+              <img src="img/be2.png" class="img-responsive" alt="" />
+          </a>
       </div>
-      <div class="col-md-4">
-        <a href="http://www.seas.ucla.edu/swe/">
-           <div id="swe"></div> 
-        </a>
+
+      <div class="col-sm-4 portfolio-item" style="margin-bottom:10px;overflow-y:auto;overflow-x:hidden;">
+          <a href="http://www.seas.ucla.edu/swe/" target=_blank class="portfolio-link" data-toggle="modal">
+              <img src="img/swe.png" class="img-responsive" alt="" />
+          </a>
       </div>
     </div>
-     <h3 class="text-center" style="margin-top:45px;">SPONSORS</h3>
-        <a href="http://www.engineer.ucla.edu/">
-         <div id="hsseas"></div> 
-        </a>
-  </div> 
- 
+  </div>
+  
+  <h3 id="spons" class="text-center">SPONSORS</h3>
+  <div class="container" style="overflow-y:auto;overflow-x:hidden;">
+    <div class="row" style="overflow-y:auto;overflow-x:hidden;">
+      <div class="col-sm-4 portfolio-item center-block" style="float:none;">
+        <a href="http://www.engineer.ucla.edu/" target=_blank class="portfolio-link" data-toggle="modal">
+          <img src="img/hsseas.jpg" class="img-responsive" alt="" />
+         </a>
+      </div>
+    </div>
+  </div>
+    
+
 </section>
 
   <section id="section-5">
