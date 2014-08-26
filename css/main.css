@@ -573,7 +573,7 @@ hr {
 	height:200px;
 	width:300px;
 	background: url(../img/esuc.png);
-	background-position: center;
+	background-position: 
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: white; 
@@ -684,7 +684,7 @@ footer a{
 }
 
 #section-4 {
-	background-image:url('../img/band.jpg');
+	background-image:url('../img/likedamn.jpg');
 	opacity:0.9;
 	background-attachment:fixed;
 	background-repeat: no-repeat;
