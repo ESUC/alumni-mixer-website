@@ -59,7 +59,7 @@ function initialize() {
 
 
    var mapOptions = {
-    zoom: 18,
+    zoom: 17,
     center: centerLatLng,
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
