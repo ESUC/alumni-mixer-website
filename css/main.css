@@ -1089,6 +1089,9 @@ div#rsvp a{
  	#intro-caption {
  		text-align: center;
  		font-size:20px;
+		margin-left:auto;
+		margin-right:auto;
+}
 
  	}
 
