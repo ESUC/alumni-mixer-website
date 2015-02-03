@@ -153,9 +153,9 @@ $(document).ready(function(){
         }, 1000);
     });
 
-    $("#to-info").click(function() {
+    $("#to-dinner").click(function() {
         $('html, body').animate({
-            scrollTop: $("#section-3").offset().top
+            scrollTop: $("#dinner").offset().top
         }, 1000);
     });
 
